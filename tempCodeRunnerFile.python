@@ -1,0 +1,44 @@
+    """
+    # Paso 10
+
+Apliquemos ahora todos los cambios a la lista de clientes. Para simplificar las cosas, te proporcionaremos una más corta.
+Debes:
+1. Eliminar todos los espacios iniciales y finales de los nombres, así como cualquier guion bajo.
+2. Convertir todas las edades en números enteros.
+3. Separar todos los nombres y apellidos en una sublista.
+
+Guarda la lista modificada como una nueva lista llamada `users_clean` y muéstrala en la pantalla.
+
+    """
+
+users = [
+    ['32415', ' mike_reed ', 32.0, ['ELECTRONICS', 'SPORT', 'BOOKS'], [894, 213, 173]],
+    ['31980', 'kate morgan', 24.0, ['CLOTHES', 'BOOKS'], [439, 390]],
+    ['32156', ' john doe ', 37.0, ['ELECTRONICS', 'HOME', 'FOOD'], [459, 120, 99]],
+]
+
+users_clean = []
+
+
+# Procesa al primer usuario
+user_name_1 = users[0][1].strip(), # escribe tu código aquí
+user_age_1 = int(users[0][2])# escribe tu código aquí
+user_name_1 = users[0][1].replace('_', ' ')
+user_name_1 = users[0][1].split()# escribe tu código aquí
+users_clean= users[0][].append()# escribe tu código aquí
+
+# Procesa al segundo usuario
+user_name_2 = # escribe tu código aquí
+user_age_2 = # escribe tu código aquí
+user_name_2 = # escribe tu código aquí
+users_clean.# escribe tu código aquí
+
+# Procesa al tercer usuario
+user_name_3 = # escribe tu código aquí
+user_age_3 = # escribe tu código aquí
+user_name_3 = # escribe tu código aquí
+users_clean.# escribe tu código aquí
+
+
+
+print(users_clean)
