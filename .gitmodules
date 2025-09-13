@@ -1,0 +1,6 @@
+[submodule "proyectos-tripleten"]
+	path = proyectos-tripleten
+	url = https://github.com/tu_usuario/proyectos-tripleten
+[submodule "Proyecto_sprint7/car-insights"]
+	path = Proyecto_sprint7/car-insights
+	url = https://github.com/tu_usuario/car-insights
